@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e5946">
+  <meta name="description" content="A focused space for exam practice. Import your question bank, take timed quizzes, and revisit what needs another look.">
+  <title>SelfQuiz — A little practice, a lot of progress.</title>
+  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="app"><main class="loading"><span class="brand-mark">S<span>✦</span></span><p>Getting your study space ready…</p></main></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="confirm-dialog" aria-labelledby="dialog-title">
+    <form method="dialog">
+      <h2 id="dialog-title"></h2><p id="dialog-copy"></p>
+      <div class="button-row"><button class="button secondary" value="cancel">Keep going</button><button id="dialog-confirm" class="button primary" value="confirm">Confirm</button></div>
+    </form>
+  </dialog>
+  <noscript>This quiz app needs JavaScript. Please enable it in your browser.</noscript>
+</body>
+</html>

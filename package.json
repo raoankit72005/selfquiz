@@ -1,0 +1,20 @@
+{
+  "name": "selfquiz-exam-practice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private question-bank import, practice quizzes, timed exams, and local progress tracking.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

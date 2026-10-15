@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "course": "Your next exam starts here",
+  "courseCode": "DEMO",
+  "institution": "Personal study space",
+  "answerSource": "SelfQuiz demonstration questions. Import a question bank for your course.",
+  "questions": [
+    {
+      "id": "demo-q1",
+      "week": 1,
+      "number": 1,
+      "topic": "Getting started",
+      "question": "Which mode lets you check an answer immediately?",
+      "options": [
+        "Timed exam",
+        "Practice",
+        "My progress",
+        "Bookmarks"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "demo-q2",
+      "week": 1,
+      "number": 2,
+      "topic": "Getting started",
+      "question": "Where is your quiz progress saved?",
+      "options": [
+        "In your current browser",
+        "In a shared leaderboard",
+        "In the GitHub repository",
+        "In an email inbox"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "demo-q3",
+      "week": 1,
+      "number": 3,
+      "topic": "Getting started",
+      "question": "What happens when the timer reaches zero in a timed exam?",
+      "options": [
+        "The timer restarts",
+        "The correct answers are deleted",
+        "The exam submits automatically",
+        "The question order changes"
+      ],
+      "answer": 2
+    }
+  ]
+}
